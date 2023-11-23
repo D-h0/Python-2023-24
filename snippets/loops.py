@@ -58,7 +58,9 @@ if tag == "Montag" or monat == "November":
 
 zahl1 = input("zahl 1: ")
 zahl2 = input("zahl 2: ")
+# not: wenn etwas NICHT ist
 if zahl1 is not zahl2:
+    #wenn zahl1 nicht zahl2 ist
     print("die Zahlen sind verschieden")
 else:
     print("es sind die gleichen Zahlen")
