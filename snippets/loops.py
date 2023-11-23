@@ -39,3 +39,26 @@ while True:
     if tipp == zahl:
         print("Gratuliere. Du hast meine Lieblingszahl erraten!")
         break
+
+# Logische Operatoren
+
+# and: beide Bedingungen müssen erfüllt sein
+tag = input("Geben Sie den Wochentag an: ")
+monat = input("welcher Monat: ")
+if tag == "Montag" and monat == "November":
+    # Code hier wird nur ausgeführt, wenn die Variable tag "Montag" ist, UND die Variable monat "November ist"
+    print("es ist ein Montag im November")
+
+# or: die erste oder die zweite Bedingung muss stimmen
+tag = input("Geben Sie den Wochentag an: ")
+monat = input("welcher Monat: ")
+if tag == "Montag" or monat == "November":
+    # Code hier wird nur ausgeführt, wenn die Variable tag "Montag" ist, ODER die Variable monat "November ist"
+    print("es ist ein Montag oder es ist November")
+
+zahl1 = input("zahl 1: ")
+zahl2 = input("zahl 2: ")
+if zahl1 is not zahl2:
+    print("die Zahlen sind verschieden")
+else:
+    print("es sind die gleichen Zahlen")
